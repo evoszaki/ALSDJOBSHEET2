@@ -34,4 +34,14 @@ public class Mahasiswa17 {
             return "Kinerja kurang.";
         }
     }
+
+    public Mahasiswa17() {
+    }
+
+    public Mahasiswa17(String nm, String nim, double ipk, String kls) {
+        nama = nm;
+        this.nim = nim;
+        this.ipk = ipk;
+        kelas = kls;
+    }
 }
